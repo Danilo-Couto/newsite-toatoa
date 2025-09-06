@@ -1,0 +1,50 @@
+{
+  "daPraia": "30 Meter von Praia do Amor entfernt",
+  "doCentro": "500 Meter vom Zentrum von Pipa entfernt",
+  "wifi": "Wi-Fi",
+  "estacionamento": "Parkplatz",
+  "bar": "Bar",
+  "piscina": "Schwimmbad",
+  "cozinha": "Gemeinschaftsküche",
+
+  "bemVindo": "WILLKOMMEN IN DER POUSADA PRAIA DO AMOR",
+  "apresentacao": "Wir sind seit über 20 Jahren ein Gästehaus in Praia da Pipa. Geräumig, sauber und sehr gut gelegen, nur 30 Meter vom paradiesischen Praia do Amor, dem besten Strand in Pipa. Es befindet sich in der Nähe von berühmten Sehenswürdigkeiten wie dem Mirante do Coração da Praia do Amor, Chapadão und dem Restaurant Amô. Dieser Strand ist ein Favorit unter Surfern, Paaren und Touristen. Wir sind auch 500 Meter vom Zentrum von Pipa und seinen berühmten Galerien wie Rua da Grécia und Rua do Céu entfernt. Unser Gästehaus ist ideal für junge Paare, Familien, Freundesgruppen und Surfer. Wir haben ein Schwimmbad, einen Parkplatz, eine Bar/Restaurant, eine Hängemattenzone mit Meerblick und eine Gemeinschaftsküche. Alle Zimmer haben private Badezimmer, Klimaanlage, Minibar, Balkon mit Hängematte und einige sogar einen Fernseher und Meerblick.",
+
+  "ar": "Klimaanlage",
+  "frigobar": "Minibar",
+  "TV": "TV",
+  "sacada": "Balkon",
+  "banheiro": "Badezimmer",
+
+  "quartosTitulo": "ERDGESCHOSS SUITEN MIT BALKON, HÄNGEMATTE UND POOLBLICK",
+  "quartosDescr": "OBERGESCHOSS SUITEN MIT BALKON, HÄNGEMATTE UND MEERBLICK",
+
+  "avaliacao": "BEWERTUNGEN",
+  "localizacao": "STANDORT",
+
+  "reservar": "BUCHEN",
+
+  "rules": "Regel",
+  "paz": "🌿 RESPEKTIEREN SIE DIE RUHE UND DEN ERHOLUNG ANDERER.",
+  "pool": "🏊‍♂️ ÖFFNUNGSZEITEN DES SCHWIMMBADS: VON 8 UHR BIS 21 UHR",
+  "som": "🔇 KEIN LÄRM UND KEINE LAUTSPRECHER ZWISCHEN 19 UHR UND 10 UHR",
+  "kitchen": "🍽️ WIR HABEN EINE GEMEINSCHAFTSKÜCHE UND EINEN WASSERHAHN MIT GEFILTERTEM WASSER.",
+  "drinks": "🥤 WIR VERKAUFEN SELBSTBEDIENUNGSGETRÄNKE IM KÜHLSCHRANK DER GEMEINSCHAFTSKÜCHE.",
+  "limpeza": "🧹 ZIMMERREINIGUNG UND HANDTUCH-/BETTWÄSCHEWECHSEL AB DEM 3. TAG AUF ANFRAGE (10 R$ PRO STÜCK VOR DEM 3. TAG).",
+  "lavanderia": "🧺 WIR HABEN EINEN WÄSCHESERVICE: 40 R$ FÜR WASCHEN UND TROCKNEN.",
+  "fumar": "🚭 NICHT RAUCHEN (BUßGELD VON R$ 300)",
+  "desligar": "🔌 KLIMAANLAGE/LAMPTEN AUSSCHALTEN BEIM VERLASSEN",
+  "maquiagem": "💄 KEIN MAKE-UP MIT HANDTÜCHERN REINIGEN (BUßGELD VON R$ 50)",
+
+  "Nome": "Name: ",
+  "Quantidade de Pessoas": "Anzahl der Personen: ",
+  "TemCrianças": "Gibt es Kinder? ",
+  "QuantasCriancas": "Wie viele Kinder: ",
+  "DataDesejada": "Gewünschtes Datum: ",
+  "avisoForm": "Nach dem Klicken auf SENDEN wirst du zu unserem WhatsApp weitergeleitet. Bitte warte auf Unterstützung. Vielen Dank für deine Kontaktaufnahme.",
+  "botaoEnviar": "SENDEN",
+
+  "suites": "Suiten"
+
+
+}

@@ -1,0 +1,49 @@
+{
+  "daPraia": "30 mètres de Praia do Amor",
+  "doCentro": "500 mètres du centre de Pipa",
+  "wifi": "Wi-Fi",
+  "estacionamento": "Parking",
+  "bar": "Bar",
+  "piscina": "Piscine",
+  "cozinha": "Cuisine commune",
+
+  "bemVindo": "BIENVENUE À POUSADA PRAIA DO AMOR",
+  "apresentacao": "Nous sommes une maison d'hôtes à Praia da Pipa depuis plus de 20 ans. Spacieuse, propre et très bien située à seulement 30 mètres de la paradisiaque Praia do Amor, la meilleure plage de Pipa. Elle est à côté des célèbres points de repère tels que le Mirante do Coração da Praia do Amor, Chapadão et le restaurant Amô. Cette plage est une favorite parmi les surfeurs, les couples et les touristes. Nous sommes également à 500 mètres du centre de Pipa et de ses fameuses galeries comme Rua da Grécia et Rua do Céu. Notre maison d'hôtes est idéale pour les jeunes couples, les familles, les groupes d'amis et les surfeurs. Nous avons une piscine, un parking, un bar/restaurant, une aire de hamacs avec vue sur la mer et une cuisine partagée. Toutes les chambres ont des salles de bains privées, la climatisation, un minibar, un balcon avec hamac, et certaines ont même une télévision et une vue sur la mer.",
+
+  "ar": "Climatisation",
+  "frigobar": "Minibar",
+  "TV": "TV",
+  "sacada": "Balcon",
+  "banheiro": "Salle de bains",
+
+  "quartosTitulo": "SUITES AU REZ-DE-CHAUSSÉE AVEC BALCON, HAMAC ET VUE SUR LA PISCINE",
+  "quartosDescr": "SUITES SUPÉRIEURES AVEC BALCON, HAMAC ET VUE SUR LA MER",
+
+  "avaliacao": "AVIS",
+  "localizacao": "EMPLACEMENT",
+
+  "reservar": "RÉSERVER",
+
+  "rules": "Règle",
+  "paz": "🌿 RESPECTEZ LA PAIX ET LE REPOS DES AUTRES.",
+  "pool": "🏊‍♂️ HEURES D'OUVERTURE DE LA PISCINE: DE 8H À 21H",
+  "som": "🔇 BRUIT ET HAUT-PARLEURS INTERDITS ENTRE 19H ET 10H",
+  "kitchen": "🍽️ NOUS AVONS UNE CUISINE PARTAGÉE ET UN ROBINET D'EAU FILTRÉE.",
+  "drinks": "🥤 NOUS VENDONS DES BOISSONS EN SELF-SERVICE DANS LE RÉFRIGÉRATEUR DE LA CUISINE PARTAGÉE.",
+  "limpeza": "🧹 NETTOYAGE DES CHAMBRES ET CHANGEMENT DES SERVIETTES ET DRAPS À PARTIR DU 3E JOUR SUR DEMANDE (10 R$ PAR ARTICLE AVANT LE 3E JOUR).",
+  "lavanderia": "🧺 NOUS AVONS UNE BLANCHISSERIE: 40 R$ POUR LAVER ET SÉCHER.",
+  "fumar": "🚭 INTERDICTION DE FUMER (AMENDE DE R$ 300)",
+  "desligar": "🔌 ÉTEINDRE CLIMATISEUR/ LUMIÈRES EN PARTANT",
+  "maquiagem": "💄 NE PAS NETTOYER LE MAQUILLAGE AVEC LES SERVIETTES (AMENDE DE R$ 50)",
+
+  "Nome": "Nom: ",
+  "Quantidade de Pessoas": "Nombre de personnes: ",
+  "TemCrianças": "Y a-t-il des enfants? ",
+  "QuantasCriancas": "Combien d'enfants: ",
+  "DataDesejada": "Date souhaitée: ",
+  "avisoForm": "Après avoir cliqué sur ENVOYER, vous serez redirigé vers notre WhatsApp. Veuillez patienter pour être assisté. Merci de nous avoir contactés.",
+  "botaoEnviar": "ENVOYER",
+
+  "suites": "Suites"
+  
+}

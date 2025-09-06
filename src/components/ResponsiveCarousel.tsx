@@ -1,0 +1,20 @@
+import imagensPousada from '../data/imagens-pousada';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
+export default function ResponsiveCarousel() {
+  const images = imagensPousada;
+
+  return (
+      <Carousel
+        autoPlay showArrows emulateTouch infiniteLoop thumbWidth={250} transitionTime={6}
+        showThumbs={false}
+      >
+        {images.areasComuns.sort().map((image, index) => (
+          <div key={index}>
+            <img src={image} alt={`Slide ${index}`} height={800} />
+          </div>
+        ))}
+      </Carousel>
+  );
+}

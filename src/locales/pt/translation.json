@@ -1,0 +1,61 @@
+{
+  "daPraia": "30 metros da Praia do Amor",
+  "doCentro": "500 metros do centrinho de Pipa",
+  "wifi": "Wi-Fi",
+  "estacionamento": "Estacionamento",
+  "bar": "Bar",
+  "piscina": "Piscina",
+  "cozinha": "Cozinha Compartilhada",
+
+  "bemVindo": "BEM-VINDO À POUSADA PRAIA DO AMOR",
+  "apresentacao": "Somos uma pousada na Praia da Pipa há mais de 20 anos. Espaçosa, limpa e muito localizada a apenas 30 metros da paradisíaca Praia do Amor, a melhor praia de Pipa. È ao lado dos famosos cartões postais, como o Mirante do Coração da Praia do Amor, o Chapadão, o restaurante e tapiocaria Amô. Esta praia é a favorita de surfistas, banhistas e turistas. Estamos também a 500 metros do centrinho de Pipa e sua famosas galerias como a da Rua da Grécia e da Rua do Céu. Nossa pousada é ideal para jovens casais, famílias, grupos de amigos e surfistas. Temos piscina, estacionamento, bar/restaurante, redário com vista para o mar e cozinha compartilhada. Todos os quartos possuem banheiro privativo, ar-condicionado, frigobar, sacada com rede e alguns ainda contam com TV e vista para o mar.",
+
+  "ar": "Ar-Condicionado",
+  "frigobar": "Frigobar",
+  "tv": "TV",
+  "sacada": "Sacada",
+  "banheiro": "Banheiro",
+
+  "quartosTitulo": "SUÍTES TÉRREAS COM SACADA, REDE E VISTA PARA A PISCINA",
+  "quartosDescr": "SUÍTES SUPERIORES COM SACADA, REDE E VISTA PARA O MAR",
+
+  "avaliacao": "AVALIAÇÕES",
+  "localizacao": "LOCALIZAÇÃO",
+
+  "reservar": "RESERVAR",
+
+  "rules": "Regras",
+
+  "paz": "🌿 RESPEITE A PAZ DO AMBIENTE E O DESCANSO DOS OUTROS.",
+
+  "pool":	"🏊‍♂️ HORÁRIO DA PISCINA: DAS 8H ÀS 21H",
+
+  "som":	"🔇 PROIBIDO BARULHO E USO DE CAIXA DE SOM ENTRE 19H E 10H",
+
+  "kitchen": "🍽️ TEMOS COZINHA COMPARTILHADA E TORNEIRA COM ÁGUA FILTRADA.",
+
+  "drinks": "🥤 VENDEMOS BEBIDAS SELF-SERVICE NO FRIGOBAR DA COZINHA COMPARTILHADA.",
+
+  "limpeza": "🧹 LIMPEZA DO QUARTO E TROCA DE TOALHAS E ROUPAS DE CAMA A PARTIR DO 3º DIA, QUANDO SOLICITADO (R$ 10 POR PEÇA ANTES DO 3º DIA).",
+
+  "lavanderia": "🧺 TEMOS LAVANDERIA: R$ 40 PARA LAVAR E SECAR.",
+
+  "fumar": "🚭 PROIBIDO FUMAR (MULTA DE R$ 300)",
+
+  "desligar": "🔌 DESLIGAR AR-CONDICIONADO/ LUZES AO SAIR",
+
+  "maquiagem": "💄 NÃO LIMPAR MAQUIAGEM NAS TOALHAS (MULTA DE R$ 50)",
+
+  "redes": "REDES SOCIAIS E AVALIAÇÕES",
+
+  "Nome": "Nome: ",
+  "Quantidade de Pessoas": "Quantidade de Pessoas: ",
+  "TemCrianças": "Tem Crianças? ",
+  "QuantasCriancas": "Quantas crianças? ",
+  "DataDesejada": "Data Desejada: ",
+  "avisoForm": "Após clicar em ENVIAR você será redirecionado para nosso WhatsApp. Aguarde para ser atendido. Obrigado pelo contato. ",
+  "botaoEnviar": "ENVIAR" ,
+
+  "suites": "Suìtes"
+
+}

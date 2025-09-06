@@ -1,0 +1,49 @@
+{
+  "daPraia": "30 meters from Praia do Amor",
+  "doCentro": "500 meters from Pipa center",
+  "wifi": "Wi-Fi",
+  "estacionamento": "Parking",
+  "bar": "Bar",
+  "piscina": "Pool",
+  "cozinha": "Communal Kitchen",
+
+  "bemVindo": "WELCOME TO POUSADA PRAIA DO AMOR",
+  "apresentacao": "We have been a guesthouse in Praia da Pipa for over 20 years. Spacious, clean, and very well located just 30 meters from the paradisiacal Praia do Amor, the best beach in Pipa. It is next to famous landmarks such as the Mirante do Coração da Praia do Amor, Chapadão, and the Amô Restaurant. This beach is a favorite among surfers, couples and tourists. We are also 500 meters from Pipa's downtown and its famous galleries like Rua da Grécia and Rua do Céu. Our guesthouse is ideal for young couples, families, groups of friends, and surfers. We have a pool, parking, bar/restaurant, hammock area with sea view, and shared kitchen. All rooms have private bathrooms, air conditioning, minibar, balcony with hammock, and some even have a TV and sea view.",
+
+  "ar": "Air Conditioning",
+  "frigobar": "Minibar",
+  "TV": "TV",
+  "sacada": "Balcony",
+  "banheiro": "Bathroom",
+  
+  "quartosTitulo": "GROUND FLOOR SUITES WITH BALCONY, HAMMOCK, AND POOL VIEW",
+  "quartosDescr": "UPPER SUITES WITH BALCONY, HAMMOCK, AND SEA VIEW",
+
+  "avaliacao": "REVIEWS",
+  "localizacao": "LOCATION",
+
+  "reservar": "BOOK",
+
+  "rules": "Rules",  
+  "paz": "🌿 RESPECT THE PEACE AND REST OF OTHERS.",
+  "pool": "🏊‍♂️ POOL HOURS: 8 AM TO 9 PM",
+  "som": "🔇 NO NOISE OR SPEAKERS BETWEEN 7 PM AND 10 AM",
+  "kitchen": "🍽️ SHARED KITCHEN AND FILTERED WATER TAP AVAILABLE.",
+  "drinks": "🥤 SELF-SERVICE BEVERAGES AVAILABLE IN THE SHARED KITCHEN FRIDGE.",
+  "limpeza": "🧹 ROOM CLEANING AND TOWEL/LINEN CHANGE FROM THE 3RD DAY UPON REQUEST (R$ 10 PER ITEM BEFORE THE 3RD DAY).",
+  "lavanderia": "🧺 LAUNDRY SERVICE: R$ 40 FOR WASHING AND DRYING.",
+  "fumar": "🚭 NO SMOKING (FINE OF R$ 300)",
+  "desligar": "🔌 TURN OFF AIR CONDITIONER/LIGHTS WHEN LEAVING",
+  "maquiagem": "💄 DO NOT CLEAN MAKEUP WITH TOWELS (FINE OF R$ 50)",
+
+  "Nome": "Name: ",
+  "Quantidade de Pessoas": "Number of people: ",
+  "TemCrianças": "Has kids? ",
+  "QuantasCriancas": "Kid age ",
+  "DataDesejada": "Date: ",
+  "avisoForm": "After clicking SEND, you will be redirected to our WhatsApp. Please wait to be assisted. Thank you for contacting us.",
+  "botaoEnviar": "SEND",
+
+  "suites": "Suites"
+  
+}

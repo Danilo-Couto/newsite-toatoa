@@ -1,0 +1,52 @@
+{
+  "daPraia": "30 metros de la Praia do Amor",
+  "doCentro": "500 metros de centrino de Pipa",
+  "wifi": "Wi-Fi",
+  "estacionamento": "Parqueo",
+  "bar": "Bar",
+  "piscina": "Piscina",
+  "cozinha": "Cocinha Conpartida",
+
+  "bemVindo": "BIENVENIDOS A POUSADA PRAIA DO AMOR",
+  "apresentacao": "Somos una posada en Praia da Pipa desde hace más de 20 años. Espaciosa, limpia y muy bien ubicada a solo 30 metros de la paradisíaca Praia do Amor, la mejor playa de Pipa. Está al lado de puntos de referencia famosos como el Mirante do Coração da Praia do Amor, Chapadão y el Restaurante y Tapiocaria Amô. Esta playa es la favorita de surfistas, bañistas y turistas. También estamos a 500 metros del centro de Pipa y sus famosas galerías como Rua da Grécia y Rua do Céu. Nuestra posada es ideal para parejas jóvenes, familias, grupos de amigos y surfistas. Tenemos piscina, estacionamiento, bar/restaurante, área de hamacas con vista al mar y cocina compartida. Todas las habitaciones tienen baño privado, aire acondicionado, minibar, balcón con hamaca y algunas incluso tienen TV y vista al mar.",
+
+  
+  "ar": "Aire Acondicionado",
+  "frigobar": "Minibar",
+  "TV": "TV",
+  "sacada": "Balcón",
+  "banheiro": "Baño",
+  
+  "quartosTitulo": "SUITES EN PLANTA BAJA CON BALCÓN, HAMACA Y VISTA A LA PISCINA",
+  "quartosDescr": "SUITES SUPERIORES CON BALCÓN, HAMACA Y VISTA AL MAR",
+
+  "avaliacao": "RESEÑAS",
+  "localizacao": "UBICACIÓN",
+  
+  "reservar": "RESERVAR",
+
+  "rules": "Reglas",
+  "paz": "🌿 RESPETE LA PAZ DEL ENTORNO Y EL DESCANSO DE LOS DEMÁS.",
+  "pool": "🏊‍♂️ HORARIO DE LA PISCINA: DE 8 AM A 9 PM",
+  "som": "🔇 PROHIBIDO EL RUIDO Y EL USO DE ALTAVOCES ENTRE 7 PM Y 10 AM",
+  "kitchen": "🍽️ TENEMOS COCINA COMPARTIDA Y GRIFO DE AGUA FILTRADA.",
+  "drinks": "🥤 VENDEMOS BEBIDAS SELF-SERVICE EN EL FRIGOBAR DE LA COCINA COMPARTIDA.",
+  "limpeza": "🧹 LIMPIEZA DE HABITACIONES Y CAMBIO DE TOALLAS Y ROPA DE CAMA A PARTIR DEL 3º DÍA, CUANDO SE SOLICITE (R$ 10 POR PIEZA ANTES DEL 3º DÍA).",
+  "lavanderia": "🧺 TENEMOS LAVANDERÍA: R$ 40 PARA LAVAR Y SECAR.",
+  "fumar": "🚭 PROHIBIDO FUMAR (MULTA DE R$ 300)",
+  "desligar": "🔌 APAGAR AIRE ACONDICIONADO/ LÁMPARAS AL SALIR",
+  "maquiagem": "💄 NO LIMPIAR MAQUILLAJE EN LAS TOALLAS (MULTA DE R$ 50)",
+
+  "Nome": "Nombre: ",
+  "Quantidade de Pessoas": "Quantidade de personas: ",
+  "TemCrianças": "Hay ninos? ",
+  "QuantasCriancas": "Quantas crianças: ",
+  "DataDesejada": "Data Deseada: ",
+  "avisoForm": "Después de hacer clic en ENVIAR, serás redirigido a nuestro WhatsApp. Espera ser atendido. Gracias por contactarnos.",
+  "botaoEnviar": "ENVIAR",
+
+    "suites": "Suites"
+
+}
+  
+
