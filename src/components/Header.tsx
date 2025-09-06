@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../public/pousada/logodoamor.png'
+import logo from '../../public/pousada/toatoa-logo.png'
 import i18n from '../services/i18next';
 import ReactCountryFlag from 'react-country-flag';
 import { useLocaleContext } from '../services/LocaleContext';

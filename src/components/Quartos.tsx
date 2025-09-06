@@ -8,7 +8,7 @@ import { pousadaContent as pousadaContentEs } from "../locales/es/pousada-conten
 import { QuartosSuperiores } from "./QuartosSuperiores";
 import { QuartosTerreos } from "./QuartosTerreos";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDoorOpen, faShower, faSnowflake, faTv, faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faDoorOpen, faShower, faSnowflake} from '@fortawesome/free-solid-svg-icons';
 import { useTranslation } from 'react-i18next';
 import { useLocaleContext } from '../services/LocaleContext';
 
@@ -30,12 +30,6 @@ export default function Quartos() {
       <div className='amenities'>
         <div>
           <FontAwesomeIcon icon={faSnowflake} /> <span>{t('ar')}</span>
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faUtensils} /> <span>{t('frigobar')}</span>
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faTv} /> <span>{t('TV')}</span>
         </div>
         <div>
           <FontAwesomeIcon icon={faDoorOpen} /> <span>{t('sacada')}</span>

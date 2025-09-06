@@ -7,7 +7,7 @@ export default function ResponsiveCarousel() {
 
   return (
       <Carousel
-        autoPlay showArrows emulateTouch infiniteLoop thumbWidth={250} transitionTime={6}
+        autoPlay showArrows emulateTouch infiniteLoop transitionTime={1}
         showThumbs={false}
       >
         {images.areasComuns.sort().map((image, index) => (

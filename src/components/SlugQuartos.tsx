@@ -20,8 +20,7 @@ interface SuiteType {
 export default function SlugQuartos() {
   const params = useParams();
   const param = params.suite;
-  let currSuite: SuiteType | undefined;
-
+   
   const { locale } = useLocaleContext();
 
   let pousadaContent = pousadaContentPt;
@@ -32,26 +31,31 @@ export default function SlugQuartos() {
   if (locale === 'fr') pousadaContent = pousadaContentFr;
   if (locale === 'gr') pousadaContent = pousadaContentGr;
   
+  const allSuites = Object.values(pousadaContent)
+    .flatMap(category => Object.values(category));
 
-  Object.entries(pousadaContent).some(([, value]) => {
-    const geralOrTerrOrSup = Object.values(value);
-    const eachSuite = Object.values(geralOrTerrOrSup);
-    currSuite = eachSuite.find(e => e.slug === param) as SuiteType | undefined;   
-    return currSuite});
+  const currSuite = allSuites.find(e => e.slug === param) as SuiteType | undefined;
 
   return currSuite ? (
     <div className='suite-detalhe'>
       <h1>{currSuite.title}</h1>
       <p>{currSuite.description}</p>
-      <div className='suite-detalhe-carousel'>
-        <ResponsiveCarousel>
-          {currSuite.imagesPaths.map((image, index) => (
+
+      <ResponsiveCarousel
+        autoPlay showArrows emulateTouch infiniteLoop thumbWidth={100}transitionTime={1}
+        >
+        {currSuite.imagesPaths.map((image, index) => (
           <div key={index}>
-          <img src={image} alt={`Slide ${index}`} />
+            <img
+              height={800}
+              src={image}
+              alt={`Imagem da suíte - ${index + 1}`}
+              loading="lazy"
+            />
           </div>
-          ))}
-        </ResponsiveCarousel>
-      </div>
+        ))}
+      </ResponsiveCarousel>
+      
       <BotaoReservar/>
     </div>
   ) : (

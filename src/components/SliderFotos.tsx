@@ -6,7 +6,7 @@ export default function SliderFotos() {
 
   return (
     <div>
-      <div className="slider-container">
+      <div>
         <div className="carousel-link">
           <h6>Bem vindos à</h6>
           <h1>POUSADA TOA TOA - PRAIA DA PIPA</h1>

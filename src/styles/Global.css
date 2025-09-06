@@ -1,12 +1,6 @@
-/* Reset or Normalize */
-/* @import 'normalize.css'; Example */
-
-/* Typography */
 #root {
   text-align: center;
-  color: #0c5b76;
-  background-color: #ffffdd;
-}
+  color: #0c5b76;}
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,10 +10,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-weight: bold;
-  
+  font-weight: bold; 
 }
-
 
 /* Responsive design */
 @media (max-width: 768px) {
@@ -28,7 +20,6 @@ h1, h2, h3 {
   }
 }
 
-/* Use Vendor Prefixes */
 .element {
   -webkit-border-radius: 5px; /* Safari/Chrome */
   -moz-border-radius: 5px; /* Firefox */
