@@ -4,6 +4,7 @@ import Home from './pages/home';
 import ListaSuites from './pages/suites-lista';
 import QuartosDetalhes from './pages/slug-suites';
 import Regras from './pages/rules';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="rules" element={<Regras />} />
         <Route path="/" element={<Home />} />
       </Routes>
+      <Analytics/>
     </div>
   );
 }
