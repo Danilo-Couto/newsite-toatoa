@@ -191,8 +191,13 @@
 
 
 .carousel .thumb {
-  height: 60px;
-  object-fit: cover;
+  height: 100px;
+  object-fit: fill;
+}
+
+.carousel-img { 
+  max-height: 800px;
+  object-fit: cover  ;
 }
 
 /* Mobile styles */
@@ -210,7 +215,7 @@
     width: 30px;
   }
 
-  .carousel-image, .room-image, .suite-detalhe img, .location iframe {
+  .room-image, .suite-detalhe img, .location iframe {
   max-width: 100%;
   }
 
@@ -229,5 +234,10 @@
   .carousel-link {
     font-size: 2em;
   }
+
+  .carousel-div {
+  height: 500px;
+  }
+
 
 }

@@ -42,12 +42,12 @@ export default function SlugQuartos() {
       <p>{currSuite.description}</p>
 
       <ResponsiveCarousel
-        autoPlay showArrows emulateTouch infiniteLoop thumbWidth={100}transitionTime={1}
+        autoPlay showArrows emulateTouch infiniteLoop thumbWidth={200} transitionTime={1}
         >
         {currSuite.imagesPaths.map((image, index) => (
           <div key={index}>
             <img
-              height={800}
+              className="carousel-img"
               src={image}
               alt={`Imagem da suíte - ${index + 1}`}
               loading="lazy"

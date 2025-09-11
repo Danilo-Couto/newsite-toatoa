@@ -7,12 +7,16 @@ export default function ResponsiveCarousel() {
 
   return (
       <Carousel
-        autoPlay showArrows emulateTouch infiniteLoop transitionTime={1}
-        showThumbs={false}
+        autoPlay
+        showArrows
+        emulateTouch
+        infiniteLoop
+        transitionTime={1}
+        showThumbs={false} 
       >
         {images.areasComuns.sort().map((image, index) => (
-          <div key={index}>
-            <img src={image} alt={`Slide ${index}`} height={800} />
+          <div key={index} className="carousel-div">
+            <img src={image} alt={`Slide ${index}`} className="carousel-img" />
           </div>
         ))}
       </Carousel>
