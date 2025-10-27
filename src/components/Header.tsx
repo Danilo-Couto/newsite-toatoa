@@ -18,7 +18,7 @@ export default function Header() {
       <div className="header">
         <div>
           <Link to="/">
-            <img src={logo} alt="Logo Pousada Toa Toa Praia da Pipa" />
+            <img loading='lazy' src={logo} alt="Logo Pousada Toa Toa Praia da Pipa" />
           </Link>
         </div>
         <div>
@@ -57,7 +57,7 @@ export default function Header() {
             onClick={() => {
               window.open('https://wa.me/558481096734?text="olá, vim pelo site."', '_blank');
             } }>
-            <img src="/WhatsAp.webp" alt="WhatsApp Logo" />
+            <img loading='lazy' src="/WhatsAp.webp" alt="WhatsApp Logo" />
           </Link>
           <a 
             href="https://www.instagram.com/pousada_toatoa_pipa/" 
@@ -65,7 +65,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="instagram-icon"
           >
-            <img src="instagram.webp" alt="Instagram Logo" />
+            <img loading='lazy' src="instagram.webp" alt="Instagram Logo" />
           </a>
         </div>
       </div>

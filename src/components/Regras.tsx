@@ -26,9 +26,9 @@ export default function Regras() {
       <span>{t('desligar')}</span>
       <span>{t('maquiagem')}</span>
       <span> 🚐 TOURS: </span>  
-      <img width={'200px'} src="qr.code.passeios.png" alt="Tours QR code" />
+      <img loading='lazy' width={'200px'} src="qr.code.passeios.png" alt="Tours QR code" />
       <span>REVIEWS</span>
-      <img width={'200px'} src="qrcode.googlereview.png" alt="Google reviews QR code" />
+      <img loading='lazy' width={'200px'} src="qrcode.googlereview.png" alt="Google reviews QR code" />
     </div>
   );
 }
