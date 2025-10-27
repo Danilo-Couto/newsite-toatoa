@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import logo from '../../public/pousada/toatoa-logo.png'
+import logo from '../../public/toatoa-logo.webp'
 import i18n from '../services/i18next';
 import ReactCountryFlag from 'react-country-flag';
 import { useLocaleContext } from '../services/LocaleContext';
@@ -57,17 +57,16 @@ export default function Header() {
             onClick={() => {
               window.open('https://wa.me/558481096734?text="olá, vim pelo site."', '_blank');
             } }>
-            <img src="/WhatsApp_icon.png" alt="WhatsApp Logo" />
+            <img src="/WhatsAp.webp" alt="WhatsApp Logo" />
           </Link>
-          <Link 
-            to="/" 
+          <a 
+            href="https://www.instagram.com/pousada_toatoa_pipa/" 
+            target="_blank" 
+            rel="noopener noreferrer"
             className="instagram-icon"
-            onClick={() => {
-              window.open('https://www.instagram.com/pousada_toatoa_pipa/', '_blank');
-            } }
           >
-            <img src="/instagram.png" alt="Instagram Logo" />
-          </Link>
+            <img src="instagram.webp" alt="Instagram Logo" />
+          </a>
         </div>
       </div>
 

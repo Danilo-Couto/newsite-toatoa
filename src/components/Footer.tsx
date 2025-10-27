@@ -6,7 +6,7 @@ export default function Footer() {
             onClick={() => {
               window.open('https://wa.me/558481096734?text="olá, vim pelo site."', '_blank');
             } }>
-        <img src="/WhatsApp_icon.png" alt="WhatsApp Logo" />
+        <img src="/WhatsAp.webp" alt="WhatsApp Logo" />
       </div>  }
     </footer>
     );

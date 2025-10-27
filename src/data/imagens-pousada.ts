@@ -2,7 +2,7 @@
 const areasComunsArr: string[] = [];
 
 for (let index = 1; index <= 11 ; index++) {   
-    areasComunsArr.push(`/pousada/areas-comuns/toatoa${index}.jpg`);
+    areasComunsArr.push(`/pousada/areas-comuns/toatoa${index}.webp`);
 }
 
 const imagensPousada: { [key: string]: string[] } = {
@@ -12,7 +12,7 @@ const imagensPousada: { [key: string]: string[] } = {
 const generateImagePaths = (folder: string): string[] => {
     const filePaths: string[] = [];
     for (let index = 1; index <= 5; index++) {
-        filePaths.push(`/pousada/${folder}/${folder}${index}.jpg`);
+        filePaths.push(`/pousada/${folder}/${folder}${index}.webp`);
     }    
     return filePaths;
 };
