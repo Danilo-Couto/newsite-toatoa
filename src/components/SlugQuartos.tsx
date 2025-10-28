@@ -51,6 +51,7 @@ export default function SlugQuartos() {
               src={image}
               alt={`Imagem da suíte - ${index + 1}`}
               loading="lazy"
+              decoding="async"
             />
           </div>
         ))}

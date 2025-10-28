@@ -16,7 +16,7 @@ export default function ResponsiveCarousel() {
       >
         {images.areasComuns.sort().map((image, index) => (
           <div key={index} className="carousel-div">
-            <img loading='lazy' src={image} alt={`Slide ${index}`} className="carousel-img" />
+            <img loading='lazy' decoding="async" src={image} alt={`Slide ${index}`} className="carousel-img" />
           </div>
         ))}
       </Carousel>

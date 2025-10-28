@@ -19,6 +19,7 @@
 .whatsapp-icon img, .instagram-icon img, .whatsapp-icon-header img{
   width: 50px;
   cursor: pointer;
+  aspect-ratio: 4 / 4;
 }
 
 .flag {
@@ -119,12 +120,14 @@
   width: 100%; /* Make the button full-width to match the image */
   cursor: pointer;
   transition: background-color 0.3s ease;
+  min-height: 60px;  
 }
 
 .room-button:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color:#fa734d;
+  min-height: 40px;
 }
 
 .ratings {
@@ -158,14 +161,18 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-decoration: none;
+  min-height: 60px;
 }
 
 .back-to-home-button:hover {
   background-color: #e06344;
+  min-height: 60px;
 }
 
 .floating-whatsapp-button img:hover {
   transform: scale(1.1);
+  min-height: 60px;
+  aspect-ratio: 4 / 4;
 }
 
 .floating-whatsapp-button img {
@@ -180,6 +187,8 @@
   align-items: center;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 60px;
+  aspect-ratio: 4 / 4;
 }
 
 .rules {
@@ -196,8 +205,9 @@
 }
 
 .carousel-img { 
-  max-height: 800px;
-  object-fit: cover  ;
+  max-height: 650px;
+  object-fit: fit;
+  aspect-ratio: 4 / 3;
 }
 
 /* Mobile styles */
@@ -208,7 +218,7 @@
   }
 
   .header img {
-  width: 80px;
+    width: 80px;
   }
   
   .whatsapp-icon img, .instagram-icon img, .whatsapp-icon-header img{
@@ -216,19 +226,19 @@
   }
 
   .room-image, .suite-detalhe img, .location iframe {
-  max-width: 100%;
-  }
+    max-width: 100%;
+    }
 
   .amenities, .ratings {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: smaller;
-  max-height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: smaller;
+    max-height: auto;
   }
 
   .floating-whatsapp-button img {
-  width: 80px;
-  height: 80px;
+    width: 80px;
+    height: 80px;
   }
 
   .carousel-link {
@@ -238,6 +248,5 @@
   .carousel-div {
   height: 500px;
   }
-
 
 }

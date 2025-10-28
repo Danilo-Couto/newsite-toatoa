@@ -10,7 +10,6 @@ export default function Header() {
       <NavLink to="#como-chegar">{t('howToArrive')}</NavLink>
       <NavLink to="/contato"> {t('contato')} </NavLink>
       <NavLink to="/rules"> {t('rules')} </NavLink>
-
     </nav>
   );
 }

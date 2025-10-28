@@ -65,7 +65,7 @@ export default function Header() {
             rel="noopener noreferrer"
             className="instagram-icon"
           >
-            <img loading='lazy' src="instagram.webp" alt="Instagram Logo" />
+            <img loading="lazy" decoding="async" src="instagram.webp" alt="Instagram Logo" />
           </a>
         </div>
       </div>
