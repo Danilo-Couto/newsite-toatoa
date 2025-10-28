@@ -9,9 +9,6 @@ import { Analytics } from '@vercel/analytics/react';
 function App() {
   return (
     <div>
-      <title>Pousada Toa Toa - Praia da Pipa</title>
-      <meta name="description" content="Pousada em Pipa a 30 metros da Praia do Amor e 500 metros do centro de Pipa. Piscina, estacionamento, cozinha compartilhada, WI-FI" />
-      <meta name="keywords" content="pousada em pipa, pousadas em pipa, hotel em pipa, pousada praia da pipa, pousada praia do amor, pousada praia do amor pipa, hotel praia do amor pipa, hotel praia da pipa" />
       <Routes>
         <Route path="suites/:suite" element={<QuartosDetalhes />} />
         <Route path="suites" element={<ListaSuites />} />

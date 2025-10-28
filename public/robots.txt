@@ -1,0 +1,11 @@
+# Bloqueia pastas privadas e temporárias
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Permite que todo o resto do site seja rastreado
+Disallow:
+
+# Indica o sitemap do site
+Sitemap: https://www.pousadaempipa.com.br/sitemap.xml
