@@ -1,8 +1,11 @@
 {
-  "name": "web-page-pousadapraiadoamor",
+  "name": "web-page Pousada Toa Toa",
+  "homepage": "https://www.pousadaempipa.com.br",
+  "author": "Pousada Toa Toa" ,
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite --open",
     "build": "tsc && vite build",

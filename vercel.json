@@ -31,6 +31,12 @@
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()" }
       ]
+    },
+    {
+      "source": "/(.*)\\.(js|css|html|json|svg|ico|png|jpg|jpeg|gif|webp)$",
+      "headers": [
+        { "key": "Content-Encoding", "value": "br" }
+      ]
     }
   ]
 }
