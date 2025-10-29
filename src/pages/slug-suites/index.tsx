@@ -13,7 +13,9 @@ export default function QuartosDetalhes() {
         url={typeof window !== 'undefined' ? window.location.href : 'https://pousadaempipa.com.br/suites'}
       />
       <Header />
-      <SlugQuartos />
+      <main>
+        <SlugQuartos />
+      </main>
       <Footer />
     </div>
   );

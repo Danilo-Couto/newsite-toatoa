@@ -103,31 +103,29 @@
 }
 
 .navlink-wrapper {
-  display: block;
+  margin-top: -7px ;
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center;     /* alinha verticalmente */
   width: 100%;
+  background-color: #0c5b76;
+  height: 80px;            /* altura total do wrapper */
 }
 
 .room-button {
-  margin-top: -7px;
-  width: fit-content;
-  height: 50px;
-  background-color: #0c5b76;
   color: #ffffdd;
   font-weight: 900;
   font-size: large;
-  border: none; /* Make the button borderless */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  width: 100%; /* Make the button full-width to match the image */
+  border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  min-height: 60px;  
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
 }
 
-.room-button:hover {
-  transform: scale(1.02);
+.navlink-wrapper:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color:#fa734d;
-  min-height: 40px;
+  
 }
 
 .ratings {

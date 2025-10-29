@@ -4,15 +4,16 @@ export default function BotaoReservar() {
   const { t } = useTranslation();
 
   return (
-    <div 
-    className="navlink-wrapper">
-      <button 
+    <div className="navlink-wrapper">
+      <a
+        href='https://wa.me/558481096734?text=olá, vim pelo site.'
+        target="_blank"
+        rel="noopener noreferrer"
         className="room-button"
-            onClick={() => {
-              window.open('https://wa.me/558481096734?text="olá, vim pelo site."', '_blank');
-            } }>
+        aria-label={t('reservar')}
+      >
         {t('reservar')}
-      </button>
+      </a>
     </div>
   );
 }

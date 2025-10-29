@@ -11,7 +11,9 @@ export default function Regras() {
         url="https://www.pousadaempipa.com.br/rules"
       />
       <Header />
-      <Rules /> 
+      <main>
+        <Rules /> 
+      </main>
   </div>
 
   )

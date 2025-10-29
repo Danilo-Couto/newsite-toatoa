@@ -13,9 +13,11 @@ export default function ListaSuites() {
       />
 
       <Header />
-      <div className="rooms">
-        <Quartos />
-      </div>
+      <main>
+        <div className="rooms">
+          <Quartos />
+        </div>
+      </main>
     </div>
   );
 }

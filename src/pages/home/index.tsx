@@ -17,13 +17,15 @@ function Home() {
         keywords="pousada em pipa, pousada praia do amor, pousada com piscina, pousada praia da pipa, hotel em pipa, pousada praia de pipa, pousada praia do amor pipa"
       />
       <Header />
-      <Facilidades />
-      <SliderFotos />
-      <Apresentacao />
-      <Quartos />
-      <Avaliacoes />
-      <Localizacao />
-      <Footer />
+      <main>
+        <Facilidades />
+        <SliderFotos />
+        <Apresentacao />
+        <Quartos />
+        <Avaliacoes />
+        <Localizacao />
+        <Footer />
+      </main>
     </div>
   );
 }
