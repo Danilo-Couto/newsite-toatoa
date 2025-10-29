@@ -1,7 +1,7 @@
 
 const areasComunsArr: string[] = [];
 
-for (let index = 1; index <= 11 ; index++) {   
+for (let index = 1; index <= 9 ; index++) {   
     areasComunsArr.push(`/pousada/areas-comuns/toatoa${index}.webp`);
 }
 
@@ -17,9 +17,9 @@ const generateImagePaths = (folder: string): string[] => {
     return filePaths;
 };
 
-const folders = ['azul', 'chale', 'laranja', 'rosa', 'verde'];
+const suiteFolders = ['azul', 'chale', 'laranja', 'rosa', 'verde'];
 
-folders.forEach(f => {
+suiteFolders.forEach(f => {
     imagensPousada[`qrto${f}`] = generateImagePaths(f);
 })
 

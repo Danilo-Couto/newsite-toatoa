@@ -39,7 +39,8 @@ export const QuartosTerreos = ({ qrtTerreos }: QrtTerreosOnMainPage) => {
         <h3> {value.title} </h3>
         <div className="room-container">
           <Link to={ `/suites/${value.slug}` } key={ value.slug }>
-            <img loading='lazy' src={value.cover} className="room-image"/>
+            <img loading='lazy' src={value.cover} className="room-image"
+            alt={`Imagem da suíte ${value.slug}`}/>
           </Link>
           <BotaoReservar />
         </div>
