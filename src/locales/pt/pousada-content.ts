@@ -4,14 +4,14 @@ const descTerreo = {
     casal: "Suíte Casal ou até 4 Pessoas",
     triplo: "Suíte para até 3 Pessoas",
     sex: "Suíte para até 6 Pessoas",
-    description: "Banheiro Privativo, Ar-condicionado, Varanda com Rede",
+    description: "Suíte com banheiro privativo, ar-condicionado e sacada com rede a apenas 30 metros da Praia do Amor e 500 metros do centrinho de Pipa. Nossa pousada é ideal para jovens casais, famílias, grupos de amigos e surfistas."
 }
 
 const descSuperior = {
     casal: "Suíte Casal ou até 4 Pessoas",
     triplo: "Suíte para até 3 Pessoas",
     apto: "Apto Completo para até 4 Pessoas",
-    description: "Banheiro Privativo, Ar-condicionado, Cozinha Privativa, Varanda com Rede e Vista",
+    description: "Suíte com banheiro privativo, ar-condicionado e sacada com rede a apenas 30 metros da Praia do Amor e 500 metros do centrinho de Pipa. Nossa pousada é ideal para jovens casais, famílias, grupos de amigos e surfistas."
 }
 
 export const pousadaContent = {

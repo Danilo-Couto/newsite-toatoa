@@ -115,7 +115,7 @@
 .room-button {
   color: #ffffdd;
   font-weight: 900;
-  font-size: large;
+  font-size: x-large;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -125,7 +125,6 @@
 .navlink-wrapper:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color:#fa734d;
-  
 }
 
 .ratings {
@@ -240,11 +239,11 @@
   }
 
   .carousel-link {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
-  .carousel-div {
-  height: 500px;
+  .room-button {
+   font-size: large;
   }
 
 }
