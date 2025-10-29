@@ -1,11 +1,17 @@
 import Header from "../../components/Header";
 import Quartos from "../../components/Quartos";
+import SEO from "../../components/SEO";
 
 export default function ListaSuites() {
   return (
     <div>
-      <title> Quartos da Pousada Toa Toa em Pipa</title>
-      <meta name="description" content="Confira a lista de suítes da Pousada Toa Toa na Praia da Pipa. Encontre a acomodação ideal para sua estadia em Pipa." />
+      <SEO
+        title="Quartos e Suítes da Pousada Toa Toa em Pipa"
+        description="Confira a lista de quartos e suítes da Pousada Toa Toa na Praia da Pipa. Encontre a acomodação ideal para sua estadia em Pipa."
+        keywords="suítes pousada pipa, quartos pousada toa toa, pousada praia da pipa, casa praia da pipa, quartos pousada pipa"
+        url="https://pousadaempipa.com.br/suites"
+      />
+
       <Header />
       <div className="rooms">
         <Quartos />

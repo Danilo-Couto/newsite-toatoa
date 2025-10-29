@@ -1,7 +1,7 @@
 {
   "name": "web-page Pousada Toa Toa",
   "homepage": "https://www.pousadaempipa.com.br",
-  "author": "Pousada Toa Toa" ,
+  "author": "Pousada Toa Toa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-country-flag": "^3.1.0",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
     "react-i18next": "^14.1.2",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.23.1"
