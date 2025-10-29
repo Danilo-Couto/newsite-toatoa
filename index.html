@@ -1,30 +1,44 @@
 <!doctype html>
-<html lang="pt">
+<html lang="pt-BR">
   <head>
-    <!-- Meta tags essenciais -->
+    <!-- 🌐 Meta tags essenciais -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pousada Toa Toa - Praia da Pipa</title>
-    <meta name="description" content="Pousada em Pipa a 30 metros da Praia do Amor e 500 metros do centro de Pipa. Piscina, estacionamento, cozinha compartilhada, WI-FI" />
-    <meta name="keywords" content="pousada em pipa, pousadas em pipa, hotel em pipa, pousada praia da pipa, pousada praia do amor, pousada praia do amor pipa, hotel praia do amor pipa, hotel praia da pipa" />
 
-    <!-- Favicons -->
+    <meta name="description" content="Pousada em Pipa a 30 metros da Praia do Amor e 500 metros do centro. Piscina, estacionamento, cozinha compartilhada e Wi-Fi. Reserve direto conosco!" />
+    <meta name="keywords" content="pousada em pipa, pousada praia da pipa, pousada praia do amor, pousada em pipa rn, pousada pipa com piscina, pousada barata pipa" />
+    <meta name="author" content="Pousada Toa Toa" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- 🖼️ Favicons -->
     <link rel="icon" type="image/png" href="/pousada/toatoa-logo.png" />
     <link rel="icon" href="/favicon.ico" sizes="any">
 
-    <!-- Preload CSS -->
-    <link rel="preload" href="/assets/index-DWYvxEHb.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- 🎨 CSS principal com preload inteligente -->
+    <link rel="preload" href="/assets/index-DWYvxEHb.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/assets/index-DWYvxEHb.css"></noscript>
 
-    <!-- Preload fontes Google -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- 🔤 Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"></noscript>
 
-    <!-- Preload imagem principal (hero) -->
+    <!-- 🖼️ Preload imagem hero (exemplo) -->
+    <link rel="preload" as="image" href="/images/hero.webp" type="image/webp" />
 
-    <!-- Performance Google Tag Manager -->
+    <!-- ⚡ Performance e SEO -->
+    <link rel="canonical" href="https://seudominio.com/" />
+    <meta property="og:title" content="Pousada Toa Toa - Praia da Pipa" />
+    <meta property="og:description" content="A 30m da Praia do Amor, a Pousada Toa Toa oferece conforto, piscina e clima praiano. Reserve agora!" />
+    <meta property="og:image" content="/pousada/toatoa-logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:url" content="https://seudominio.com/" />
+
+    <!-- 📈 Google Tag Manager -->
     <link rel="preconnect" href="https://www.googletagmanager.com" />
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,7 +58,7 @@
     <!-- React root -->
     <div id="root"></div>
 
-    <!-- JS principal -->
+    <!-- ⚙️ Script principal -->
     <script type="module" src="/src/main.tsx" defer></script>
   </body>
 </html>

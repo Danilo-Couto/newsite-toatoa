@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App.tsx';
 import { BrowserRouter } from 'react-router-dom';
 import { ClickProvider } from './services/ClickContext.tsx';
+import { LocaleProvider } from './services/LocaleContext.tsx';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './services/i18next.ts';
-import { LocaleProvider } from './services/LocaleContext.tsx';
+import './styles/Global.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
