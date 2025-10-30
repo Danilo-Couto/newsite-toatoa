@@ -26,7 +26,6 @@ export default function Quartos() {
   
   return (
     <div>
-      <h2>{t('SUÍTES')}</h2>
       <div className='amenities'>
         <div>
           <FontAwesomeIcon icon={faSnowflake} /> <span>{t('ar')}</span>
@@ -39,9 +38,9 @@ export default function Quartos() {
         </div>
       </div>
       <div className="rooms">
-        <h3>{t('quartosDescr')}</h3>
+        <h2>{t('quartosDescr')}</h2>
         <QuartosSuperiores qrtosSuperiores={pousadaContent.qrtsSuperiores} />
-        <h3>{t('quartosTitulo')}</h3>
+        <h2>{t('quartosTitulo')}</h2>
         <QuartosTerreos qrtTerreos={pousadaContent.qrtsTerreos} />
       </div>      
     </div>

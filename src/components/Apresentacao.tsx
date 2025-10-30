@@ -5,9 +5,9 @@ export default function Apresentacao() {
   
   return (
     <div className="presentation">
-      <h2>
+      <h4>
       {t('bemVindo')}
-      </h2>
+      </h4>
       <span>        
       {t('apresentacao')}
       </span>

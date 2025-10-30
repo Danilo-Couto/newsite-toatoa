@@ -2,6 +2,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import SlugQuartos from '../../components/SlugQuartos';
 import SEO from '../../components/SEO';
+import Facilidades from '../../components/Facilidades';
 
 export default function QuartosDetalhes() {
   return (
@@ -14,6 +15,7 @@ export default function QuartosDetalhes() {
       />
       <Header />
       <main>
+        <Facilidades />
         <SlugQuartos />
       </main>
       <Footer />

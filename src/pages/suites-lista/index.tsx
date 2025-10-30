@@ -1,3 +1,4 @@
+import Facilidades from "../../components/Facilidades";
 import Header from "../../components/Header";
 import Quartos from "../../components/Quartos";
 import SEO from "../../components/SEO";
@@ -11,13 +12,13 @@ export default function ListaSuites() {
         keywords="suítes pousada pipa, quartos pousada toa toa, pousada praia da pipa, casa praia da pipa, quartos pousada pipa"
         url="https://pousadaempipa.com.br/suites"
       />
-
       <Header />
-      <main>
-        <div className="rooms">
-          <Quartos />
-        </div>
-      </main>
+      <div className="rooms">
+        <main>
+            <Facilidades />
+            <Quartos />
+        </main>
+      </div>
     </div>
   );
 }
