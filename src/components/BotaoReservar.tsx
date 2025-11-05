@@ -6,7 +6,7 @@ export default function BotaoReservar() {
   return (
     <div className="navlink-wrapper">
       <a
-        href='https://wa.me/558481096734?text=olá, vim pelo site.'
+        href='https://hbook.hsystem.com.br/Booking?companyId=632b13f5e819f634133f8f8a&promocode=igdHnaPz'
         target="_blank"
         rel="noopener noreferrer"
         className="room-button"
