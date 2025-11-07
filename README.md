@@ -12,7 +12,7 @@ Bem-vindo ao repositório do site da Pousada Praia da Pipa! Este projeto é uma 
 
 ## Demonstração
 
-Confira a demonstração ao vivo do site: https://www.pousadapraiadoamorpipa.com.br
+Confira a demonstração ao vivo do site: https://pousadaempipa.com.br/
 
 ## Recursos
 
@@ -40,7 +40,7 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## Contato
 
-Danilo Couto:vdanilocoutodev@exemplo.com
+Danilo Couto: danilocoutodev@exemplo.com
 
 Link do Projeto: https://github.com/seuusuario/pousada-praia-da-pipa
 # newsite-toatoa
