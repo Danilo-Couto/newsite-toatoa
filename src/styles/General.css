@@ -237,6 +237,7 @@
     width: 80px;
     height: 80px;
     right: 1px;
+    margin-right: -5px;
   }
 
   .carousel-link {
